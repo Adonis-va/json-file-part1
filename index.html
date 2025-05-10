@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Famous Paintings Collection</title>
+  <style>
+        body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h1 {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2.5em;
+    }
+    .item {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+    .item img {
+      max-width: 20%;
+      border-radius: 8px;
+    }
+    .tags {
+      font-style: italic;
+      color: #666;
+    }
+    .source-link {
+      margin-top: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Famous Paintings Collection</h1>
+  <div id="collection"></div>
+  <script>
+        fetch('collection.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('collection');
+        data.forEach(item => {
+          const entry = document.createElement('div');
+          entry.className = 'item';
+          entry.innerHTML = `
+            <h2>${item.title}</h2>
+            <img src="${item.media_url}" alt="${item.title}">
+            <p>${item.description}</p>
+            <p><strong>Creator:</strong> ${item.creator}</p>
+            <p><strong>Date:</strong> ${item.date}</p>
+            <p class="tags">Tags: ${item.tags.join(', ')}</p>
+            <a class="source-link" href="${item.source}" target="_blank">View Source</a>
+          `;
+          container.appendChild(entry);
+        });
+      })
+      .catch(err => {
+        document.getElementById('collection').innerHTML = "<p>Error loading collection.</p>";
+        console.error(err);
+      });
+  </script>
+</body>
+</html>

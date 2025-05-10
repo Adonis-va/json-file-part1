@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Jungle Arc",
+    "description": "Acrylic paint is fast drying paint containing pigment suspension in acrylic polymer emulsion.",
+    "type": "image",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Jungle_Arc.jpg/1280px-Jungle_Arc.jpg",
+    "source": "https://en.wikipedia.org/wiki/Ray_Burggraf",
+    "tags": ["Postacrylic paint on wood-Jungle Arc", "Ray Burggraf", "1998"],
+    "creator": "Ray Burggraf",
+    "date": "1998"
+  },
+  {
+    "title": "The Persistence of Memory",
+    "description": "A surreal image featuring melting clocks, symbolizing the relativity of time.",
+    "type": "image",
+    "media_url": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
+    "source": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+    "tags": ["Surrealism", "Dalí", "1931"],
+    "creator": "Salvador Dalí",
+    "date": "1931"
+  },
+  {
+    "title": "Painting of Goddess Saraswathi",
+    "description": "National Gallery of Modern Art, Jaipur House, New Delhi",
+    "type": "image",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Mysore_Painting.jpg",
+    "source": "https://en.wikipedia.org/wiki/Mysore",
+    "tags": ["19th Century"],
+    "creator": "Durgada Krishnappa",
+    "date": "1850"
+  },
+  {
+    "title": "Girl with a Pearl Earring",
+    "description": "A portrait of a young girl wearing a pearl earring.",
+    "type": "image",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg",
+    "source": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+    "tags": ["Baroque", "Vermeer"],
+    "creator": "Johannes Vermeer",
+    "date": "1665"
+  },
+  {
+    "title": "Mona Lisa",
+    "description": "A portrait of a woman with an enigmatic expression, considered the most famous painting in the world.",
+    "type": "image",
+    "media_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg",
+    "source": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "tags": ["Renaissance", "Leonardo da Vinci"],
+    "creator": "Leonardo da Vinci",
+    "date": "1503"
+  }
+]
